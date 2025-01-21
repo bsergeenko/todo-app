@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="todo-container">
+      <div class="todo">
+        <h2>TODO</h2>
+        <img class="moon" src="./images/icon-moon.svg" alt="moon"/>
+      </div>
+      <div class="create-todo dark">
+        <div class="checkbox-item">
+          <input class="chackbox1" type="checkbox">
+          <div class="input-div"></div>
+        </div>
+        <input class="input-text dark" type="text" placeholder="Create a new todo...">
+      </div>
+      <div class="todo-list dark">
+        <ul class="ul-tag">
+          <!-- <li>
+            <div class="flex-cross">
+              <div class="checkbox-item">
+                <input class="chackbox1" type="checkbox">
+                <div class="input-div"></div>
+              </div>
+              <h3 class="main-text">Jog around the park 3x</h3>
+            </div>
+            <img src="./images/icon-cross.svg" alt="icon-cross"/>
+          </li>
+          <li>
+            <div class="flex-cross">
+              <div class="checkbox-item">
+                <input class="chackbox1" type="checkbox">
+                <div class="input-div"></div>
+              </div>
+              <h3 class="main-text">10 minutes meditation</h3>
+            </div>
+            <img src="./images/icon-cross.svg" alt="icon-cross"/>
+          </li>
+          <li>
+            <div class="flex-cross">
+              <div class="checkbox-item">
+                <input class="chackbox1" type="checkbox">
+                <div class="input-div"></div>
+              </div>
+              <h3 class="main-text">Read for 1 hoer</h3>
+            </div>
+            <img src="./images/icon-cross.svg" alt="icon-cross"/>
+          </li>
+          <li>
+            <div class="flex-cross">
+              <div class="checkbox-item">
+                <input class="chackbox1" type="checkbox">
+                <div class="input-div"></div>
+              </div>
+              <h3 class="main-text">Pick up groceries</h3>
+            </div>
+            <img src="./images/icon-cross.svg" alt="icon-cross"/>
+          </li>
+          <li>
+            <div class="flex-cross">
+              <div class="checkbox-item">
+                <input class="chackbox1" type="checkbox">
+                <div class="input-div"></div>
+              </div>
+              <h3 class="main-text">Complete Todo App on Frontend Mentor</h3>
+            </div>
+            <img src="./images/icon-cross.svg" alt="icon-cross"/>
+          </li> -->
+        </ul>
+        <div class="ul-footer dark">
+          <p class="left">5 items left</p>
+          <div class="active-texts">
+            <h4 class="all">All</h4>
+            <h4>Active</h4>
+            <h4>Completed</h4>
+          </div>
+          <p class="left">Clear Completed</p>
+        </div>
+        <div class="mobile-footer">
+          <div class="mobile-flex">
+            <h4 class="all">All</h4>
+            <h4>Active</h4>
+            <h4>Completed</h4>
+          </div>
+        </div>
+      </div>
+      <p class="drag left">Drag and drop to reorder list</p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
